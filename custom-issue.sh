@@ -11,6 +11,8 @@
 # version       : 1.0
 # Description   : a --maybe-- simple /etc/issue generator
 # Usage         : save it on /etc/network/if-up.d/ and make it executable
+# License       : Apache License   Version 2.0, January 2004  
+#                 http://www.apache.org/licenses/
 #------------------------------------------------------------------------------
 # Release Note	
 # 2014-04-04    The beginning
