@@ -9,7 +9,6 @@
 ###############################################################################
 # file          : custom-issue.sh
 # version       : 1.0
-# Last revision : 2014-04-04
 # Description   : a --maybe-- simple /etc/issue generator
 # Usage         : save it on /etc/network/if-up.d/ and make it executable
 #------------------------------------------------------------------------------
