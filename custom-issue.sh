@@ -10,8 +10,8 @@
 # file          : custom-issue.sh
 # version       : 1.0
 # Last revision : 2014-04-04
-# description   : a --maybe-- simple /etc/issue generator
-#                 save it on /etc/network/if-up.d/ and make it executable
+# Description   : a --maybe-- simple /etc/issue generator
+# Usage         : save it on /etc/network/if-up.d/ and make it executable
 #------------------------------------------------------------------------------
 # Release Note	
 # 2014-04-04    The beginning
