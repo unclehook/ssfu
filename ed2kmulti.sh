@@ -12,9 +12,23 @@
 # file          : ed2kmulti.sh
 # version       : 1.0
 # Description   : multiline ed2k adder for amule
-# Usage         : before to use configure your amulecmd
 # License       : Apache License   Version 2.0, January 2004  
 #                 http://www.apache.org/licenses/
+# Usage         : before to use
+#	1) configure your amulecmd
+#	2) create the file userapp-amulecmd.desktop under your 
+#      ~/.local/share/applications
+#   3) insert this into the file
+#          [Desktop Entry]
+#          Name=aMuleCmd
+#          Name[en_US]=userapp-amulecmd
+#          Exec=/home/public/bin/ed2kmulti %u
+#          Icon=amule
+#          Terminal=true
+#          Type=Application
+#          Categories=Network;P2P;
+#          Comment=A client for the eD2k network
+#          MimeType=x-scheme-handler/ed2k
 #------------------------------------------------------------------------------
 # Release Note	
 # 2014-04-04    The beginning
