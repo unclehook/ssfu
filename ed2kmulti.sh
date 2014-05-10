@@ -70,6 +70,7 @@ links=$1
 
 if [ "$links" = "" ]; then
 	lp_usage
+	exit -1
 fi 
 # store link in a temporary file
 tempfile=$(mktemp) 
