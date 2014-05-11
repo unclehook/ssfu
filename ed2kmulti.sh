@@ -18,11 +18,11 @@
 #	1) configure your amulecmd
 #	2) create the file userapp-amulecmd.desktop under your 
 #      ~/.local/share/applications
-#   3) insert this into the file
+#   3) insert this into the file, remember to edit install path:
 #          [Desktop Entry]
 #          Name=aMuleCmd
 #          Name[en_US]=userapp-amulecmd
-#          Exec=/home/public/bin/ed2kmulti %u
+#          Exec=<install path>\ed2kmulti %u
 #          Icon=amule
 #          Terminal=true
 #          Type=Application
