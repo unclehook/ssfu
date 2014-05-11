@@ -29,6 +29,8 @@
 #          Categories=Network;P2P;
 #          Comment=A client for the eD2k network
 #          MimeType=x-scheme-handler/ed2k
+#  4) add the following line into your ~/.local/share/applications/mimeapps.list:
+#          x-scheme-handler/ed2k=userapp-amule.desktop
 #------------------------------------------------------------------------------
 # Release Note	
 # 2014-04-04    The beginning
