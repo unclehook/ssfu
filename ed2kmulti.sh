@@ -43,7 +43,6 @@ scriptyear="2014"
 # Functions                                                                   #
 ###############################################################################
 
-#ed2k://|file|Marvel's.Agents.Of.S.H.I.E.L.D.1x13.Il.Treno.ITA.LD.WEBRip.x264-iGM.[tvu.org.ru].srt|315|966CB685B5017C5A123D26F40B26DD6B|h=JB6432J4PCTDWT7GOASDT6ZS4GAO7FUJ|/
 function lp_imprint (){
 #------------------------------------------------------------------------------
 # Function lp_imprint
