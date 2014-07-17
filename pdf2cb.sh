@@ -71,6 +71,7 @@ function lp_error (){
 
 lp_imprint
 
+startdir=$(pwd)
 file=$(basename "$1")
 dirname=$(dirname "$1")
 format=${2,,}
@@ -116,7 +117,11 @@ if [ "$format" = "cbr" ]; then
 fi
 
 if [ "$format" = "cbz" ]; then
-	zip -j -9 "\"$dirname/$cbfile.$format\"" "$tempfile/page*"
+#	zip -j -9 "\"$dirname/$cbfile.$format\"" $tempfile/page*
+ 	cd "$tempfile"
+	zip -j -9 "$cbfile.$format" *
+	cp "$cbfile.$format" "$dirname"
+	cd "$startdir"
 fi
 
 
